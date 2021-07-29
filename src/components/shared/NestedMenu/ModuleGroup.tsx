@@ -4,7 +4,7 @@ import { NestedModuleGroup } from './types';
 import css from './NestedMenu.module.scss';
 
 interface ModuleGroupProps {
-  modules: NestedModuleGroup["modules"];
+  modules: NestedModuleGroup['modules'];
   label: string;
   onItemClick(key: string): void;
 }
